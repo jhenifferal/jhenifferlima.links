@@ -94,19 +94,21 @@
     }
 
     /* ── tags ── */
-    .tags {
-      display: flex; flex-wrap: wrap; gap: 6px;
-      justify-content: center;
-      margin: 14px 0 24px;
-    }
-    .tag {
-      font-size: .7rem; font-weight: 500;
-      padding: 4px 11px; border-radius: 99px;
+    .role {
+      text-align: center;
+      font-size: .82rem;
+      font-weight: 500;
+      color: var(--pink-dark);
+      margin-top: 12px;
       letter-spacing: .3px;
     }
-    .tag-p { background:var(--pink-light);  color:var(--pink-dark); }
-    .tag-g { background:var(--green-light); color:var(--green-dark); }
-
+    .location {
+      text-align: center;
+      font-size: .73rem;
+      color: var(--muted);
+      margin: 6px 0 24px;
+      letter-spacing: .3px;
+    }
     /* ── divider ── */
     .divider {
       height: 1px; margin-bottom: 20px;
@@ -222,37 +224,17 @@
     <h1 class="name">Jheniffer <em>Lima</em></h1>
 
 
-    <div class="tags">
-      <span class="tag tag-p">Skincare 🧴</span>
-      <span class="tag tag-g">Make 💄</span>
-      <span class="tag tag-p">Fitness 💪</span>
-      <span class="tag tag-g">São José · SC</span>
-    </div>
+    <p class="role">UGC Creator 🎬 Nano Influência</p>
+    <p class="location">📍 Grande Floripa · SC</p>
 
     <div class="divider"></div>
 
     <div class="links">
 
-      <a href="https://www.instagram.com/jhenifferlimaa" target="_blank" class="link-btn" onclick="trackClick('Instagram')">
+      <a href="https://jhenifferlima.vercel.app" target="_blank" class="link-btn btn-kit" onclick="trackClick('Midia Kit')">
         <div class="btn-text">
-          <span class="btn-label">Instagram</span>
-          <span class="btn-sub">Vem me conhecer</span>
-        </div>
-        <span class="arrow">›</span>
-      </a>
-
-      <a href="https://www.tiktok.com/@jhenifferalima" target="_blank" class="link-btn" onclick="trackClick('TikTok')">
-        <div class="btn-text">
-          <span class="btn-label">TikTok</span>
-          <span class="btn-sub">Conteúdo sem filtro</span>
-        </div>
-        <span class="arrow">›</span>
-      </a>
-
-      <a href="https://br.pinterest.com/jhenifferalimaa/" target="_blank" class="link-btn" onclick="trackClick('Pinterest')">
-        <div class="btn-text">
-          <span class="btn-label">Pinterest</span>
-          <span class="btn-sub">Inspirações & mood boards</span>
+          <span class="btn-label">Mídia Kit · Parcerias 💼</span>
+          <span class="btn-sub">UGC & Nano Influência — tudo que sua marca precisa</span>
         </div>
         <span class="arrow">›</span>
       </a>
@@ -265,10 +247,23 @@
         <span class="arrow">›</span>
       </a>
 
-      <a href="https://jhenifferlima.vercel.app" target="_blank" class="link-btn btn-kit" onclick="trackClick('Midia Kit')">
+      <a href="https://www.instagram.com/jhenifferlimaa" target="_blank" class="link-btn" onclick="trackClick('Instagram')">
         <div class="btn-text">
-          <span class="btn-label">Mídia Kit</span>
-          <span class="btn-sub">Parcerias & UGC — clique aqui</span>
+          <span class="btn-label">Instagram</span>
+        </div>
+        <span class="arrow">›</span>
+      </a>
+
+      <a href="https://www.tiktok.com/@jhenifferalima" target="_blank" class="link-btn" onclick="trackClick('TikTok')">
+        <div class="btn-text">
+          <span class="btn-label">TikTok</span>
+        </div>
+        <span class="arrow">›</span>
+      </a>
+
+      <a href="https://br.pinterest.com/jhenifferalimaa/" target="_blank" class="link-btn" onclick="trackClick('Pinterest')">
+        <div class="btn-text">
+          <span class="btn-label">Pinterest</span>
         </div>
         <span class="arrow">›</span>
       </a>
