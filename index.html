@@ -1,285 +1,256 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jheniffer Lima</title>
-  <!-- Google tag (gtag.js) -->
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Jheniffer Lima · Links</title>
+<meta name="description" content="Links de Jheniffer Lima, UGC Creator e nano influenciadora da Grande Floripa/SC."/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%9F%3C/text%3E%3C/svg%3E"/>
+
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F7PM5B25P6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-F7PM5B25P6');
-
   function trackClick(label) {
-    gtag('event', 'click', {
-      event_category: 'botao',
-      event_label: label
-    });
+    gtag('event', 'click', { event_category: 'botao', event_label: label });
   }
 </script>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
-  <style>
-    :root {
-      --pink:       #F2799F;
-      --pink-light: #FADADF;
-      --pink-dark:  #D4527A;
-      --green:      #7FBF9E;
-      --green-light:#C8E6D8;
-      --green-dark: #4E9B7A;
-      --cream:      #FDF7F4;
-      --text:       #2C1A1A;
-      --muted:      #9C7070;
-      --border:     rgba(212,82,122,.14);
-    }
 
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet"/>
 
-    body {
-      font-family: 'DM Sans', sans-serif;
-      background: var(--cream);
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 32px 0;
-    }
+<style>
+:root{
+  --ink:#2b2b2b; --ink-soft:#6b6470;
+  --cream:#fbf5f0; --soft-pink:#ffe3f0;
+  --pink:#f25ca2; --green:#2e7d5b; --gold:#c9a66b; --mint:#5de490;
+  --glass-strong:rgba(255,252,249,.86);
+  --line:rgba(43,43,43,.10);
+  --shadow:0 24px 60px -28px rgba(43,30,20,.5), 0 6px 18px -10px rgba(43,30,20,.28);
+  --shadow-sm:0 12px 30px -18px rgba(43,30,20,.45);
+  --radius:22px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Inter',system-ui,sans-serif;color:var(--ink);
+  -webkit-font-smoothing:antialiased;line-height:1.55;overflow-x:hidden;
+  min-height:100vh;display:flex;align-items:center;justify-content:center;
+  padding:38px 18px;
+  background:
+    radial-gradient(1100px 700px at 8% -8%, var(--soft-pink), transparent 60%),
+    radial-gradient(1100px 760px at 105% 4%, #d8f3e3, transparent 58%),
+    radial-gradient(900px 820px at 50% 122%, #f3e6cf, transparent 62%),
+    linear-gradient(165deg, var(--cream), var(--soft-pink) 55%, var(--cream));
+  background-attachment:fixed;
+}
+a{color:inherit;text-decoration:none;}
+.fred{font-family:'Fraunces',serif;}
+.hand{font-family:'Caveat',cursive;}
 
-    body::before {
-      content: '';
-      position: fixed; inset: 0;
-      background:
-        radial-gradient(ellipse 60% 50% at 5% 0%,   rgba(242,121,159,.16) 0%, transparent 65%),
-        radial-gradient(ellipse 55% 50% at 95% 100%, rgba(127,191,158,.18) 0%, transparent 65%);
-      pointer-events: none;
-      z-index: 0;
-    }
+/* ambient blobs */
+.blob{position:fixed;border-radius:50%;filter:blur(64px);opacity:.42;z-index:0;pointer-events:none;}
+.blob.b1{width:360px;height:360px;background:#f7a8d0;top:6%;left:-120px;}
+.blob.b2{width:320px;height:320px;background:#8fe0b4;bottom:2%;right:-110px;}
 
-    /* ── card ── */
-    .card {
-      position: relative; z-index: 1;
-      width: min(400px, 92vw);
-      padding: 40px 28px 44px;
-      background: rgba(255,252,250,.88);
-      backdrop-filter: blur(20px);
-      border-radius: 28px;
-      border: 1.5px solid var(--border);
-      box-shadow: 0 8px 40px rgba(212,82,122,.08), 0 1px 0 rgba(255,255,255,.95) inset;
-      animation: up .65s cubic-bezier(.22,1,.36,1) both;
-    }
-    @keyframes up {
-      from { opacity:0; transform:translateY(24px); }
-      to   { opacity:1; transform:translateY(0); }
-    }
+/* ===== window card ===== */
+.win{position:relative;z-index:2;width:min(408px,100%);
+  background:var(--glass-strong);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.7);border-radius:var(--radius);box-shadow:var(--shadow);
+  overflow:hidden;animation:up .6s cubic-bezier(.22,1,.36,1) both;}
+.win-bar{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;
+  background:rgba(255,255,255,.6);border-bottom:1px solid var(--line);}
+.dots{display:flex;gap:.4rem;}
+.dots i{width:11px;height:11px;border-radius:50%;display:block;}
+.dots i:nth-child(1){background:#ff5f57;}.dots i:nth-child(2){background:#febc2e;}.dots i:nth-child(3){background:#28c840;}
+.win-title{font-size:.74rem;font-weight:600;color:var(--ink-soft);margin-left:.3rem;}
+.win-body{padding:2rem 1.6rem 1.7rem;}
 
+/* ===== header ===== */
+.eyebrow{display:inline-flex;align-items:center;gap:.5rem;font-size:.63rem;font-weight:700;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--green);
+  background:#fff;padding:.4rem .8rem;border-radius:999px;box-shadow:var(--shadow-sm);}
+.eyebrow b{color:var(--pink);}
+.name{font-family:'Fraunces',serif;font-weight:700;line-height:.86;letter-spacing:-.01em;
+  font-size:clamp(2.6rem,13vw,3.3rem);margin:1rem 0 .1rem;}
+.name .l1{display:block;color:var(--pink);text-shadow:2px 2px 0 var(--green);}
+.name .l2{display:block;color:var(--green);text-shadow:2px 2px 0 var(--pink);}
+.role{margin-top:.9rem;font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--green);}
+.loc{display:inline-flex;align-items:center;gap:.4rem;margin-top:.7rem;font-size:.72rem;font-weight:600;
+  color:#fff;background:var(--green);padding:.34rem .75rem;border-radius:999px;box-shadow:var(--shadow-sm);}
 
+/* ===== metrics strip ===== */
+.metrics{display:flex;gap:.55rem;margin:1.3rem 0 .4rem;}
+.mtile{flex:1;background:#fff;border:1px solid var(--line);border-radius:14px;
+  padding:.7rem .5rem;text-align:center;box-shadow:var(--shadow-sm);}
+.mtile .n{font-family:'Fraunces',serif;font-weight:600;font-size:1.18rem;line-height:1;color:var(--pink);}
+.mtile .n.g{color:var(--green);}
+.mtile .l{font-size:.56rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-top:.4rem;font-weight:600;}
 
-    /* ── header ── */
-    .name {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: var(--text);
-      text-align: center;
-      letter-spacing: -.2px;
-    }
-    .name em { font-style:italic; color:var(--pink-dark); }
+/* ===== divider ===== */
+.divider{height:1px;margin:1.3rem 0 1.1rem;
+  background:linear-gradient(90deg,transparent,var(--line),transparent);}
 
-    .tagline {
-      text-align: center;
-      font-size: .8rem;
-      color: var(--muted);
-      margin-top: 5px;
-    }
+/* ===== links ===== */
+.links{display:flex;flex-direction:column;gap:10px;}
+.link-btn{display:flex;align-items:center;gap:.85rem;padding:.85rem 1rem;border-radius:14px;
+  background:#fff;border:1px solid var(--line);color:var(--ink);box-shadow:var(--shadow-sm);
+  transition:transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+  animation:up .6s cubic-bezier(.22,1,.36,1) both;}
+.links .link-btn:nth-child(1){animation-delay:.06s;}
+.links .link-btn:nth-child(2){animation-delay:.11s;}
+.links .link-btn:nth-child(3){animation-delay:.16s;}
+.links .link-btn:nth-child(4){animation-delay:.21s;}
+.links .link-btn:nth-child(5){animation-delay:.26s;}
+.links .link-btn:nth-child(6){animation-delay:.31s;}
+.links .link-btn:nth-child(7){animation-delay:.36s;}
+.link-btn:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:rgba(242,92,162,.35);}
+.link-btn:active{transform:scale(.985);}
+.link-btn:focus-visible{outline:2px solid var(--pink);outline-offset:2px;}
 
-    /* ── tags ── */
-    .role {
-      text-align: center;
-      font-size: .82rem;
-      font-weight: 500;
-      color: var(--pink-dark);
-      margin-top: 12px;
-      letter-spacing: .3px;
-    }
-    .location {
-      text-align: center;
-      font-size: .73rem;
-      color: var(--muted);
-      margin: 6px 0 24px;
-      letter-spacing: .3px;
-    }
-    /* ── divider ── */
-    .divider {
-      height: 1px; margin-bottom: 20px;
-      background: linear-gradient(90deg, transparent, var(--border), transparent);
-    }
+.link-btn::before{content:'';display:block;flex-shrink:0;width:3px;height:30px;border-radius:99px;
+  background:linear-gradient(180deg,var(--pink),var(--green));opacity:.5;transition:opacity .16s;}
+.link-btn:hover::before{opacity:1;}
 
-    /* ── buttons — padrão único ── */
-    .links { display:flex; flex-direction:column; gap:10px; }
+.btn-ic{flex-shrink:0;width:34px;height:34px;border-radius:10px;display:flex;align-items:center;
+  justify-content:center;font-size:1.05rem;box-shadow:var(--shadow-sm);}
+.btn-text{flex:1;min-width:0;}
+.btn-label{display:block;font-size:.88rem;font-weight:600;line-height:1.2;}
+.btn-sub{display:block;font-size:.7rem;color:var(--ink-soft);margin-top:2px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.arrow{font-family:'Fraunces',serif;font-size:.95rem;color:var(--ink-soft);opacity:.4;
+  transition:opacity .16s, transform .16s;}
+.link-btn:hover .arrow{opacity:.8;transform:translateX(3px);}
 
-    .link-btn {
-      display: flex;
-      align-items: center;
-      gap: 13px;
-      padding: 14px 18px;
-      border-radius: 14px;
-      text-decoration: none;
-      color: var(--text);
-      background: #fff;
-      border: 1.5px solid var(--border);
-      transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease;
-      animation: up .65s cubic-bezier(.22,1,.36,1) both;
-    }
-    .link-btn:nth-child(1) { animation-delay:.08s; }
-    .link-btn:nth-child(2) { animation-delay:.14s; }
-    .link-btn:nth-child(3) { animation-delay:.20s; }
-    .link-btn:nth-child(4) { animation-delay:.26s; }
-    .link-btn:nth-child(5) { animation-delay:.32s; }
-    .link-btn:nth-child(6) { animation-delay:.38s; }
+/* social icon tints */
+.ic-ig{background:linear-gradient(150deg,#ff8ec4,#f25ca2);color:#fff;}
+.ic-tt{background:linear-gradient(150deg,#4a4a4a,#2b2b2b);color:#fff;}
+.ic-yt{background:linear-gradient(150deg,#ff8a8a,#e74c4c);color:#fff;}
+.ic-pt{background:linear-gradient(150deg,#e88b8b,#c9302c);color:#fff;}
+.ic-mail{background:linear-gradient(150deg,#ddc596,#c9a66b);color:#fff;}
 
-    .link-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(212,82,122,.12);
-      border-color: rgba(242,121,159,.35);
-    }
-    .link-btn:active { transform: scale(.98); }
+/* BigBoom */
+.btn-bigboom{background:linear-gradient(135deg,var(--soft-pink),#c7f4da);border-color:rgba(242,92,162,.25);}
+.btn-bigboom:hover{border-color:rgba(242,92,162,.5);}
+.btn-bigboom .btn-label{color:#b03a72;}
+.btn-bigboom .btn-ic{background:#fff;color:var(--pink);}
 
-    /* barra de acento à esquerda — igual em todos */
-    .link-btn::before {
-      content: '';
-      display: block;
-      width: 3px; height: 30px;
-      border-radius: 99px;
-      flex-shrink: 0;
-      background: linear-gradient(180deg, var(--pink), var(--green));
-      opacity: .45;
-      transition: opacity .16s;
-    }
-    .link-btn:hover::before { opacity: 1; }
+/* Mídia Kit — destaque */
+.btn-kit{background:linear-gradient(150deg,var(--pink),var(--green));border-color:transparent;color:#fff;
+  box-shadow:var(--shadow);}
+.btn-kit::before{background:rgba(255,255,255,.6);opacity:.6;}
+.btn-kit:hover{border-color:transparent;box-shadow:0 26px 60px -22px rgba(242,92,162,.5);}
+.btn-kit:hover::before{opacity:1;}
+.btn-kit .btn-ic{background:rgba(255,255,255,.22);color:#fff;}
+.btn-kit .btn-sub{color:rgba(255,255,255,.8);}
+.btn-kit .arrow{color:#fff;opacity:.65;}
+.btn-kit:hover .arrow{opacity:1;}
 
-    .btn-text { flex: 1; }
-    .btn-label {
-      display: block;
-      font-size: .86rem;
-      font-weight: 500;
-      line-height: 1.2;
-    }
-    .btn-sub {
-      display: block;
-      font-size: .71rem;
-      color: var(--muted);
-      margin-top: 2px;
-    }
+/* ===== footer note ===== */
+.foot{margin-top:1.4rem;text-align:center;}
+.foot .hand{font-size:1.25rem;color:var(--ink-soft);}
+.foot .hand b{color:var(--pink);font-weight:700;}
 
-    .arrow {
-      font-size: .78rem;
-      color: var(--muted);
-      opacity: .35;
-      transition: opacity .16s, transform .16s;
-    }
-    .link-btn:hover .arrow { opacity: .75; transform: translateX(3px); }
-
-    /* parceria bigboom */
-    .btn-bigboom {
-      background: linear-gradient(135deg, var(--pink-light), var(--green-light));
-      border-color: rgba(242,121,159,.25);
-    }
-    .btn-bigboom:hover {
-      border-color: rgba(242,121,159,.5);
-    }
-    .btn-bigboom .btn-label { color: var(--pink-dark); font-weight: 600; }
-
-    /* único destaque — mídia kit */
-    .btn-kit {
-      background: linear-gradient(135deg, var(--pink-dark), var(--green-dark));
-      border-color: transparent;
-      color: #fff;
-      box-shadow: 0 4px 14px rgba(212,82,122,.22);
-    }
-    .btn-kit::before { background: rgba(255,255,255,.5); opacity: .55; }
-    .btn-kit:hover {
-      border-color: transparent;
-      box-shadow: 0 8px 24px rgba(212,82,122,.32);
-    }
-    .btn-kit:hover::before { opacity: 1; }
-    .btn-kit .btn-sub { color: rgba(255,255,255,.72); }
-    .btn-kit .arrow   { color: #fff; opacity: .55; }
-    .btn-kit:hover .arrow { opacity: 1; }
-
-    /* ── footer ── */
-    .footer {
-      margin-top: 24px;
-      text-align: center;
-      font-size: .7rem;
-      color: var(--muted);
-      opacity: .5;
-    }
-    .footer b { color: var(--pink); font-weight: 400; }
-  </style>
+@keyframes up{from{opacity:0;transform:translateY(22px);}to{opacity:1;transform:translateY(0);}}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important;}
+}
+</style>
 </head>
 <body>
-  <div class="card">
 
-    <h1 class="name">Jheniffer <em>Lima</em></h1>
+<span class="blob b1"></span>
+<span class="blob b2"></span>
 
+<main class="win">
+  <div class="win-bar">
+    <span class="dots"><i></i><i></i><i></i></span>
+    <span class="win-title">jhenifferlima · links</span>
+  </div>
 
-    <p class="role">UGC Creator 🎬 Nano Influência</p>
-    <p class="location">📍 Grande Floripa · SC</p>
+  <div class="win-body">
+    <span class="eyebrow">🌟 UGC <b>&</b> Nano Influenciadora</span>
+
+    <h1 class="name"><span class="l1">Jheniffer</span><span class="l2">Lima</span></h1>
 
     <div class="divider"></div>
 
-    <div class="links">
+    <nav class="links">
 
-      <a href="https://jhenifferlima.vercel.app" target="_blank" class="link-btn btn-kit" onclick="trackClick('Midia Kit')">
-        <div class="btn-text">
-          <span class="btn-label">Mídia Kit · Parcerias 💼</span>
-          <span class="btn-sub">UGC & Nano Influência — tudo que sua marca precisa</span>
-        </div>
+      <a href="https://jhenifferlima.vercel.app" target="_blank" rel="noopener" class="link-btn btn-kit" onclick="trackClick('Midia Kit')">
+        <span class="btn-ic">💼</span>
+        <span class="btn-text">
+          <span class="btn-label">Mídia Kit · Parcerias</span>
+          <span class="btn-sub">Tudo que sua marca precisa saber</span>
+        </span>
         <span class="arrow">›</span>
       </a>
 
-      <a href="https://usebigboom.com.br/discount/JHENILIMA" target="_blank" class="link-btn btn-bigboom" onclick="trackClick('BigBoom')">
-        <div class="btn-text">
-          <span class="btn-label">BIGBOOM 🏷️ JHENILIMA</span>
-          <span class="btn-sub">Clique e use meu cupom de desconto</span>
-        </div>
+      <a href="https://usebigboom.com.br/discount/JHENILIMA" target="_blank" rel="noopener" class="link-btn btn-bigboom" onclick="trackClick('BigBoom')">
+        <span class="btn-ic">🏷️</span>
+        <span class="btn-text">
+          <span class="btn-label">BigBoom · cupom JHENILIMA</span>
+          <span class="btn-sub">Clique e use meu desconto</span>
+        </span>
         <span class="arrow">›</span>
       </a>
 
-      <a href="https://www.instagram.com/jhenifferlimaa" target="_blank" class="link-btn" onclick="trackClick('Instagram')">
-        <div class="btn-text">
+      <a href="https://www.instagram.com/jhenifferlimaa" target="_blank" rel="noopener" class="link-btn" onclick="trackClick('Instagram')">
+        <span class="btn-ic ic-ig">📷</span>
+        <span class="btn-text">
           <span class="btn-label">Instagram</span>
-        </div>
+          <span class="btn-sub">@jhenifferlimaa</span>
+        </span>
         <span class="arrow">›</span>
       </a>
 
-      <a href="https://www.tiktok.com/@jhenifferalima" target="_blank" class="link-btn" onclick="trackClick('TikTok')">
-        <div class="btn-text">
+      <a href="https://www.tiktok.com/@jhenifferalima" target="_blank" rel="noopener" class="link-btn" onclick="trackClick('TikTok')">
+        <span class="btn-ic ic-tt">🎵</span>
+        <span class="btn-text">
           <span class="btn-label">TikTok</span>
-        </div>
+          <span class="btn-sub">@jhenifferalima</span>
+        </span>
         <span class="arrow">›</span>
       </a>
 
-      <a href="https://br.pinterest.com/jhenifferalimaa/" target="_blank" class="link-btn" onclick="trackClick('Pinterest')">
-        <div class="btn-text">
+      <a href="https://www.youtube.com/@jhenifferlimaa" target="_blank" rel="noopener" class="link-btn" onclick="trackClick('YouTube')">
+        <span class="btn-ic ic-yt">▶</span>
+        <span class="btn-text">
+          <span class="btn-label">YouTube</span>
+          <span class="btn-sub">@jhenifferlimaa</span>
+        </span>
+        <span class="arrow">›</span>
+      </a>
+
+      <a href="https://br.pinterest.com/jhenifferalimaa/" target="_blank" rel="noopener" class="link-btn" onclick="trackClick('Pinterest')">
+        <span class="btn-ic ic-pt">📌</span>
+        <span class="btn-text">
           <span class="btn-label">Pinterest</span>
-        </div>
+          <span class="btn-sub">@jhenifferalimaa</span>
+        </span>
         <span class="arrow">›</span>
       </a>
 
       <a href="mailto:contatojheniffer@outlook.com" class="link-btn" onclick="trackClick('Contato')">
-        <div class="btn-text">
+        <span class="btn-ic ic-mail">✉️</span>
+        <span class="btn-text">
           <span class="btn-label">Contato para marcas</span>
           <span class="btn-sub">contatojheniffer@outlook.com</span>
-        </div>
+        </span>
         <span class="arrow">›</span>
       </a>
 
+    </nav>
+
+    <div class="foot">
+      <span class="hand">feito com <b>♥</b></span>
     </div>
-
-    <p class="footer">feito com <b>♥</b> e muito skincare</p>
-
   </div>
+</main>
+
 </body>
 </html>
